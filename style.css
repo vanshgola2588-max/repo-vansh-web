@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Time Table</title>
+    <table border="3", width="700", height="400">
+         <caption>College Time Table</caption>
+</head>
+<body>
+        <thead>
+              <tr>
+                <th colspan="4" align="center">B.Tech-CSE</th>
+            </tr>
+        <tr align="center">
+            <td><b>Day/Time</b></td>
+            <td><b> 09:00-10:00 </b></td>
+            <td><b> 10:00-11:00 </b></td>
+            <td><b> 11:00-12:00 </b></td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr align="center">
+        <td><b> Monday</b></td> 
+        <td>HTML</td>
+        <td rowspan="2"> HTML Lab </td> 
+        <td>Mathmatics </td>
+        </tr>
+        <tr align="center">
+        <td><b> Tuesday</b></td>
+        <td>CSS</td>
+        <td>English</td>
+        </tr>
+        <tr align="center">
+        <td><b> Wednesday</b></td>
+        <td>JavaScript</td>
+        <td>Mathematics</td>
+        <td>Physics</td>
+        </tr>
+         <tr>
+                <td colspan="4" align="center">Lectures Summary</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">HTML</td>
+                <td colspan="2" align="center">1 Lecture</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">CSS</td>
+                <td colspan="2" align="center">1 Lecture</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+</body>
+
+</html>
